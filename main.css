@@ -5,6 +5,7 @@
 body {
   width: 100%;
   margin: 0;
+  clear: inherit;
 }
 
 .linkGrid {
@@ -20,7 +21,6 @@ body {
 .linkSection {
   width: 66%;
   float:left;
-
 }
 
 .box {
@@ -31,7 +31,7 @@ body {
   grid-column: 1/ span 3;
   grid-row: 1;
   background-color: #89E83C;
-
+  padding-left: 20px;
 }
 
 .box2 {
@@ -78,8 +78,11 @@ body {
 
 .imageSection {
   overflow: hidden;
-  width: 33%;
+  width: 34%;
   height: 100vh;
+  float: left;
+  background: url(images/taco-558254_1280.jpg);
+  background-position: center;
 }
 
 .icon {
@@ -92,7 +95,7 @@ h1 {
   font-size: 36px;
   margin: 0;
   padding: 0;
-  width: 400px;
+  width: 50%;
 }
 
 h2 {
@@ -100,16 +103,56 @@ h2 {
   font-size: 28px;
   margin: 0;
   padding: 0;
-  width: 400px;
+  width: 60%;
 }
 
 .box1 p {
-  width: 400px;
+  width: 60%;
 }
 
-.box1 div { ;
+article div {
+  width: 60%;
+  position: relative;
+  left: 150px;
 }
 
-h3 {
-  vertical-align: bottom;
+@media screen and (max-width: 800px) {
+  .linkSection {
+    width: 100%;
+    height: 500px;
+    float: none;
+  }
+  .imageSection {
+    width: 100%;
+    float: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .icon {
+    visibility: hidden;
+  }
+  .linkGrid {
+  display: initial;
+  }
+
+  .box {
+  height: 50px;
+  }
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.box1 p {
+  font-size: 12px;
+}
+
+  .imageSection {
+  visibility: hidden;
+  }
 }
