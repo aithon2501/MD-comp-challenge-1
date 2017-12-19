@@ -24,12 +24,14 @@ body {
 }
 
 .box {
+  text-align: center;
 }
 
 .box1 {
   grid-column: 1/ span 3;
   grid-row: 1;
   background-color: #89E83C;
+
 }
 
 .box2 {
@@ -75,17 +77,43 @@ body {
 }
 
 .imageSection {
-  overflow: hidden;
+ /* overflow: hidden;
   display: inline-block;
   width: 35%;
   height: 100vh;
-  float: right;
-  background-image: url("foodtruck-558254_640.jpg");
+  float: right;*/
+  background-image: url("images/taco-558254_1280.jpg");
+}
 
+.icon {
+  height:100px;
+  width:100px;
 }
 
 h1 {
   font-family: Gloria Hallelujah;
-  font-size: 30px;
+  font-size: 36px;
   margin: 0;
+  padding: 0;
+  width: 400px;
+}
+
+h2 {
+  font-family: Gloria Hallelujah;
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+
+.box1 p {
+  width: 400px;
+}
+
+.box1 div {
+  justify-content: center ;
+}
+
+h3 {
+  vertical-align: bottom;
 }
