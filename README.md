@@ -4,8 +4,8 @@ The icons all came from the Noun Project on the suggestion of fellow student, bu
 
 __Original Comp__
 
-![static comp 1 reference image](MD-comp-challenge-1/images/static-comp-challenge-1.jpg)
+![static comp 1 reference image](https://github/aithon2501/MD-comp-challenge-1/images/static-comp-challenge-1.jpg)
 
 __My Comp__
 
-![m duke static comp](MD-comp-challenge-1/images/Screen Shot 2017-12-19 at 10.45.11 AM.png)
+![m duke static comp](https://github/aithon2501/MD-comp-challenge-1/images/Screen Shot 2017-12-19 at 10.45.11 AM.png)
