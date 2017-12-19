@@ -20,6 +20,7 @@ body {
 
 .linkSection {
   width: 66%;
+  float:left;
 
 }
 
@@ -80,9 +81,9 @@ body {
  /* overflow: hidden;
   display: inline-block;
   width: 35%;
-  height: 100vh;
-  float: right;*/
-  background-image: url("images/taco-558254_1280.jpg");
+  height: 100vh;*/
+  float: left;
+ /* background-image: url("images/taco-558254_1280.jpg")*/;
 }
 
 .icon {
