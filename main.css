@@ -9,11 +9,10 @@ body {
 
 .linkGrid {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-auto-rows: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr 1fr 1fr;
   height: 100vh;
   margin: 0;
-  z-index:1;
   grid-gap:0;
   overflow:hidden;
 }
@@ -78,17 +77,14 @@ body {
 }
 
 .imageSection {
- /* overflow: hidden;
-  display: inline-block;
-  width: 35%;
-  height: 100vh;*/
-  float: left;
- /* background-image: url("images/taco-558254_1280.jpg")*/;
+  overflow: hidden;
+  width: 33%;
+  height: 100vh;
 }
 
 .icon {
-  height:100px;
-  width:100px;
+  height:175px;
+  width:175px;
 }
 
 h1 {
@@ -111,8 +107,7 @@ h2 {
   width: 400px;
 }
 
-.box1 div {
-  justify-content: center ;
+.box1 div { ;
 }
 
 h3 {
